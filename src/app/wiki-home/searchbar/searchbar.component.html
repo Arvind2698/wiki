@@ -1,0 +1,11 @@
+<form (submit)="onFormSubmit($event)">
+  <div class="ui fluid icon input">
+    <input
+      type="text"
+      placeholder="What would you like to search for......."
+      (input)="inputChange($event)"
+      [value]="inputText"
+    />
+    <i class="search icon"></i>
+  </div>
+</form>
