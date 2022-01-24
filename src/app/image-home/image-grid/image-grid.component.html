@@ -1,0 +1,5 @@
+<div class="grid-container">
+    <div class="grid-item" *ngFor="let item of data;let i=index">
+        <app-image [src]="item.links.download" (imageLoaded)="onImageLoad($event,i)"></app-image>
+    </div>
+</div>

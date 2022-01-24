@@ -8,6 +8,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { WikiHomeComponent } from './wiki-home/wiki-home.component';
 import { SearchbarComponent } from './wiki-home/searchbar/searchbar.component';
 import { TableComponent } from './wiki-home/table/table.component';
+import { ImageHomeComponent } from './image-home/image-home.component';
+import { SearchBarComponent } from './image-home/search-bar/search-bar.component';
+import { ImageGridComponent } from './image-home/image-grid/image-grid.component';
+import { ImageComponent } from './image-home/image-grid/image/image.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { TableComponent } from './wiki-home/table/table.component';
     HomePageComponent,
     WikiHomeComponent,
     SearchbarComponent,
-    TableComponent
+    TableComponent,
+    ImageHomeComponent,
+    SearchBarComponent,
+    ImageGridComponent,
+    ImageComponent
   ],
   imports: [
     BrowserModule,
