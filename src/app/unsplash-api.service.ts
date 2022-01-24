@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { environment } from 'src/environments/environment';
 import { pluck } from 'rxjs';
 
 interface UnsplashObservableType{
@@ -24,7 +23,7 @@ export class UnsplashApiService {
   getSerchText(text:string){
     return this.httpClient.get<UnsplashObservableType>('https://api.unsplash.com/search/photos',{
       params:{
-        client_id:environment.unsplashAPI,
+        client_id:"mOhIgkL64HssTVcYJKdOXqyv7woLOCuvmHdnK3x5-LM",
         query:text
       }
     }).pipe(

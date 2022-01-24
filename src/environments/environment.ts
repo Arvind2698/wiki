@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  unsplashAPI:"mOhIgkL64HssTVcYJKdOXqyv7woLOCuvmHdnK3x5-LM"
 };
 
 /*
